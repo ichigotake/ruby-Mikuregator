@@ -1,4 +1,4 @@
-ruby-Mikuregator
+ruby-Mikuregator [![Build Status](https://travis-ci.org/ichigotake/ruby-Mikuregator.png)](https://travis-ci.org/ichigotake/ruby-Mikuregator)
 ================
 
 https://github.com/ichigotake/Mikuregator をPerlからRubyに移植予定

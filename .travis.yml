@@ -1,0 +1,7 @@
+rvm:
+  - 2.0.0
+before_script:
+  - cp configs/{travis.yml,development.yml}
+  - mysql -e 'create database mikuregator_test;'
+script:
+  - bundle exec rake db:drop db:migrate db:test:prepare spec
