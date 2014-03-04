@@ -1,5 +1,12 @@
 # Created by http://www.gitignore.io
 
+/configs/*
+!/configs/template.yml
+
+### Intellij ###
+.idea/
+*.iml
+
 ### Ruby ###
 *.gem
 *.rbc

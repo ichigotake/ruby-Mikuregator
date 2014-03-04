@@ -2,6 +2,12 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 require 'active_support/core_ext'
 
+require 'active_record'
+require 'mysql2'
+
+ActiveRecord::Base.configurations = YAML.load_file('configs/development.yml')
+ActiveRecord::Base.establish_connection('development')
+
 get '/' do
     erb :index
 end

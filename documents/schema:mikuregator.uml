@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>d174d7a8-c7e5-405b-a7b5-6d8ecd2c358c.schema:mikuregator</OriginalElement>
+  <nodes>
+    <node x="60.0" y="0.0">d174d7a8-c7e5-405b-a7b5-6d8ecd2c358c.table:mikuregator.authors</node>
+    <node x="0.0" y="191.0">d174d7a8-c7e5-405b-a7b5-6d8ecd2c358c.table:mikuregator.repositories</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="d174d7a8-c7e5-405b-a7b5-6d8ecd2c358c.table:mikuregator.repositories" target="d174d7a8-c7e5-405b-a7b5-6d8ecd2c358c.table:mikuregator.authors">
+      <point x="0.0" y="-136.5" />
+      <point x="0.0" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="144.0" y="232.0" />
+  <SelectedNodes>
+    <node>d174d7a8-c7e5-405b-a7b5-6d8ecd2c358c.table:mikuregator.repositories</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
