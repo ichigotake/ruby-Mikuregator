@@ -11,6 +11,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140504020739) do
+
+  create_table "authors", force: true do |t|
+    t.string   "name"
+    t.string   "avatar_image_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "host_types", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "repositories", force: true do |t|
+    t.integer  "owner_author_id"
+    t.string   "full_name"
+    t.string   "description"
+    t.string   "html_url"
+    t.string   "repository_url"
+    t.integer  "host_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
