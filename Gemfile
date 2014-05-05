@@ -1,14 +1,18 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+gem 'rails', '4.1.0'
 gem 'rspec-rails'
 gem 'rspec'
+gem "database_cleaner", "~> 1.2.0"
 
 # Use TwitterBootstrap
 gem 'therubyracer'
 gem "less-rails"
 gem "twitter-bootstrap-rails"
+
+# Use Github API
+gem "github_api", '0.11.3'
 
 gem 'rspec'
 # Use sqlite3 as the database for Active Record
