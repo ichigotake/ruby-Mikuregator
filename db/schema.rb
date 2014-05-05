@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140504220040) do
+ActiveRecord::Schema.define(version: 20140505083244) do
 
   create_table "authors", force: true do |t|
     t.string   "name"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 20140504220040) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "authors", ["name"], name: "index_authors_on_name", unique: true
 
   create_table "repositories", force: true do |t|
     t.integer  "owner_author_id"
@@ -31,5 +33,7 @@ ActiveRecord::Schema.define(version: 20140504220040) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "repositories", ["full_name"], name: "index_repositories_on_full_name", unique: true
 
 end

@@ -11,6 +11,9 @@ gem 'therubyracer'
 gem "less-rails"
 gem "twitter-bootstrap-rails"
 
+gem 'mechanize'
+gem 'nokogiri'
+
 # Use Github API
 gem "github_api", '0.11.3'
 
