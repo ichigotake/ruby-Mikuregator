@@ -2,6 +2,7 @@
 
 /configs/*
 !/configs/template.yml
+!/configs/travis.yml
 
 ### Intellij ###
 .idea/
